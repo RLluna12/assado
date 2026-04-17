@@ -2,13 +2,13 @@
 
 import { useState } from "react"
 import { MenuCategory } from "./menu-category"
-import { PizzaSlice, CoffeeCup, Flame, Circle } from "iconoir-react"
+import { Pizza, Cup, Sparks, HexagonDice } from "iconoir-react"
 
 const categories = [
-  { id: "pizzas", label: "Pizzas", icon: PizzaSlice },
-  { id: "esfihas", label: "Esfihas", icon: Circle },
-  { id: "especiais", label: "Especiais", icon: Flame },
-  { id: "drinks", label: "Bebidas", icon: CoffeeCup },
+  { id: "pizzas", label: "Pizzas", icon: Pizza },
+  { id: "esfihas", label: "Esfihas", icon: HexagonDice },
+  { id: "especiais", label: "Especiais", icon: Sparks },
+  { id: "drinks", label: "Bebidas", icon: Cup },
 ]
 
 const menuItems = {
