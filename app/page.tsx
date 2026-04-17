@@ -13,106 +13,87 @@ export default function Home() {
     "@graph": [
       {
         "@type": "Restaurant",
-        "@id": "https://foodiewagon.de/#restaurant",
-        "name": "The Foodie Wagon",
-        "description": "Premium Halal Burger Food Truck in Ingolstadt - Hausgemachte Beef Patties, Fried Chicken, Currywurst und authentisches Street Food",
-        "url": "https://foodiewagon.de",
-        "telephone": "+49-XXX-XXXXXXX",
-        "servesCuisine": ["Burger", "Halal", "Street Food", "Fast Food", "American", "German"],
-        "priceRange": "€€",
-        "image": "https://foodiewagon.de/graphics/tasty burger.svg",
-        "logo": "https://foodiewagon.de/graphics/fooiewagen logo.svg",
+        "@id": "https://blasterchef.com.br/#restaurant",
+        "name": "BlasTerchef",
+        "description": "Pizzaria e Esfiharia - Pizzas artesanais, esfihas deliciosas e o melhor rodizio da cidade",
+        "url": "https://blasterchef.com.br",
+        "telephone": "+55-11-99999-9999",
+        "servesCuisine": ["Pizza", "Esfiha", "Italiana", "Arabe"],
+        "priceRange": "$$",
+        "image": "https://blasterchef.com.br/graphics/pizza-hero.jpeg",
+        "logo": "https://blasterchef.com.br/graphics/blasterchef-logo.jpeg",
         "address": {
           "@type": "PostalAddress",
-          "addressLocality": "Ingolstadt",
-          "addressRegion": "Bayern",
-          "addressCountry": "DE"
-        },
-        "geo": {
-          "@type": "GeoCoordinates",
-          "latitude": "48.7665",
-          "longitude": "11.4257"
+          "streetAddress": "Rua das Pizzas, 123",
+          "addressLocality": "Sua Cidade",
+          "addressRegion": "SP",
+          "addressCountry": "BR"
         },
         "openingHoursSpecification": [
           {
             "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-            "opens": "11:00",
-            "closes": "22:00"
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+            "opens": "18:00",
+            "closes": "23:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Friday", "Saturday", "Sunday"],
+            "opens": "18:00",
+            "closes": "00:00"
           }
         ],
-        "paymentAccepted": "Cash, Credit Card",
-        "currenciesAccepted": "EUR"
+        "paymentAccepted": "Dinheiro, Cartao de Credito, Cartao de Debito, Pix",
+        "currenciesAccepted": "BRL"
       },
       {
         "@type": "FoodEstablishment",
-        "@id": "https://foodiewagon.de/#foodestablishment",
-        "name": "The Foodie Wagon",
+        "@id": "https://blasterchef.com.br/#foodestablishment",
+        "name": "BlasTerchef",
         "hasMenu": {
           "@type": "Menu",
           "hasMenuSection": [
             {
               "@type": "MenuSection",
-              "name": "Beef Burgers",
-              "description": "Hausgemachte 140g Beef Patties, 100% Halal",
+              "name": "Pizzas",
+              "description": "Pizzas artesanais com ingredientes selecionados",
               "hasMenuItem": [
                 {
                   "@type": "MenuItem",
-                  "name": "Cheesy Buffalo",
-                  "description": "Brioche Bun, Beef Patty 140g, Käse, Burger Sauce, Gurke, Zwiebel, Tomaten, Salat",
+                  "name": "Margherita",
+                  "description": "Molho de tomate, mussarela, tomate fresco, manjericao e azeite",
                   "offers": {
                     "@type": "Offer",
-                    "price": "10.50",
-                    "priceCurrency": "EUR"
-                  },
-                  "suitableForDiet": "https://schema.org/HalalDiet"
+                    "price": "45.00",
+                    "priceCurrency": "BRL"
+                  }
                 },
                 {
                   "@type": "MenuItem",
-                  "name": "Angry Bull",
-                  "description": "Brioche Bun, Beef Patty 140g, Käse, Chili Cheese Sauce, Jalapeno",
+                  "name": "Pizza BlasTerchef",
+                  "description": "Nossa especialidade: mussarela, pepperoni, bacon, cheddar, cebola caramelizada e molho especial",
                   "offers": {
                     "@type": "Offer",
-                    "price": "12.00",
-                    "priceCurrency": "EUR"
-                  },
-                  "suitableForDiet": "https://schema.org/HalalDiet"
+                    "price": "68.00",
+                    "priceCurrency": "BRL"
+                  }
                 }
               ]
             },
             {
               "@type": "MenuSection",
-              "name": "Chicken Burgers",
-              "description": "Knusprige Chicken Strips, 100% Halal",
+              "name": "Esfihas",
+              "description": "Esfihas frescas com recheios variados",
               "hasMenuItem": [
                 {
                   "@type": "MenuItem",
-                  "name": "Crunchy Chicken",
-                  "description": "Brioche Bun, Chicken Strips, Käse, Burger Sauce, Salat",
+                  "name": "Esfiha de Carne",
+                  "description": "Carne moida temperada com especiarias arabes",
                   "offers": {
                     "@type": "Offer",
-                    "price": "8.50",
-                    "priceCurrency": "EUR"
-                  },
-                  "suitableForDiet": "https://schema.org/HalalDiet"
-                }
-              ]
-            },
-            {
-              "@type": "MenuSection",
-              "name": "Fried Chicken",
-              "description": "Knuspriges Fried Chicken - Wings & Strips",
-              "hasMenuItem": [
-                {
-                  "@type": "MenuItem",
-                  "name": "Chicken Wings",
-                  "description": "Knusprige Chicken Wings - 6, 10 oder 20 Stück",
-                  "offers": {
-                    "@type": "Offer",
-                    "price": "7.50",
-                    "priceCurrency": "EUR"
-                  },
-                  "suitableForDiet": "https://schema.org/HalalDiet"
+                    "price": "6.50",
+                    "priceCurrency": "BRL"
+                  }
                 }
               ]
             }
@@ -121,26 +102,21 @@ export default function Home() {
       },
       {
         "@type": "LocalBusiness",
-        "@id": "https://foodiewagon.de/#localbusiness",
-        "name": "The Foodie Wagon",
-        "description": "Mobile Food Truck für Halal Burger und Street Food in Ingolstadt",
-        "slogan": "Where Flavor Hits The Road",
-        "hasCredential": {
-          "@type": "EducationalOccupationalCredential",
-          "credentialCategory": "Halal Certification",
-          "name": "100% Halal Certified"
-        }
+        "@id": "https://blasterchef.com.br/#localbusiness",
+        "name": "BlasTerchef",
+        "description": "Pizzaria e Esfiharia com rodizio aos finais de semana",
+        "slogan": "Sabor que Conquista"
       },
       {
         "@type": "WebSite",
-        "@id": "https://foodiewagon.de/#website",
-        "url": "https://foodiewagon.de",
-        "name": "The Foodie Wagon",
-        "description": "Premium Halal Burgers & Street Food in Ingolstadt",
+        "@id": "https://blasterchef.com.br/#website",
+        "url": "https://blasterchef.com.br",
+        "name": "BlasTerchef",
+        "description": "Pizzaria e Esfiharia - Pizzas, Esfihas e Rodizio",
         "publisher": {
-          "@id": "https://foodiewagon.de/#restaurant"
+          "@id": "https://blasterchef.com.br/#restaurant"
         },
-        "inLanguage": "de-DE"
+        "inLanguage": "pt-BR"
       }
     ]
   };

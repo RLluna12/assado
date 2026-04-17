@@ -4,31 +4,28 @@ export function LocationSection() {
   return (
     <section id="location" className="py-20 md:py-32 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Section Header with Truck Icon */}
+        {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <div className="flex items-center justify-center gap-4 mb-6">
-            <img
-              src="/graphics/truck.svg"
-              alt="Food Truck"
-              className="h-16 w-16 object-contain"
-            />
-            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary tracking-tight">STANDORT</h2>
-            <img
-              src="/graphics/truck.svg"
-              alt="Food Truck"
-              className="h-16 w-16 object-contain transform scale-x-[-1]"
-            />
+            <span className="text-5xl">🍕</span>
+            <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary tracking-tight">LOCALIZACAO</h2>
+            <span className="text-5xl">🥟</span>
           </div>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Finden Sie uns jeden Samstag am Saturn/Mediamarkt in Ingolstadt
+            Venha nos visitar ou peca pelo delivery - estamos prontos para atender voce!
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Map Placeholder */}
           <div className="relative aspect-video lg:aspect-square rounded-2xl overflow-hidden bg-secondary">
-            <img src="/map-of-ingolstadt-germany-westpark-area-street-map.jpg" alt="Standort Karte" className="w-full h-full object-cover" />
-            <div className="absolute inset-0 bg-background/40" />
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-transparent" />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <div className="text-center">
+                <div className="text-8xl mb-4">📍</div>
+                <p className="text-foreground font-bold text-xl">Mapa em breve</p>
+              </div>
+            </div>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
               <div className="relative">
                 <div className="absolute -inset-4 bg-accent/30 rounded-full animate-ping" />
@@ -48,12 +45,13 @@ export function LocationSection() {
                   <MapPin className="w-6 h-6 text-accent-foreground" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-foreground mb-2">Hauptstandort</h3>
+                  <h3 className="text-2xl font-bold text-foreground mb-2">Nosso Endereco</h3>
                   <p className="text-lg text-muted-foreground">
-                    Saturn/Mediamarkt
+                    Rua das Pizzas, 123
                     <br />
-                    Am Westpark 7<br />
-                    85057 Ingolstadt
+                    Centro
+                    <br />
+                    Sua Cidade - SP
                   </p>
                 </div>
               </div>
@@ -63,8 +61,8 @@ export function LocationSection() {
                   <Calendar className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-foreground mb-2">Jeden Samstag!</h3>
-                  <p className="text-muted-foreground">Besuchen Sie uns wöchentlich für frische Burger und mehr</p>
+                  <h3 className="text-xl font-bold text-foreground mb-2">Rodizio Especial</h3>
+                  <p className="text-muted-foreground">Sexta, Sabado e Domingo - Pizzas e Esfihas a vontade!</p>
                 </div>
               </div>
 
@@ -73,17 +71,19 @@ export function LocationSection() {
                   <Clock className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-foreground mb-2">Öffnungszeiten</h3>
-                  <p className="text-muted-foreground">Samstag: 11:00 - 20:00 Uhr</p>
+                  <h3 className="text-xl font-bold text-foreground mb-2">Horario de Funcionamento</h3>
+                  <p className="text-muted-foreground">Segunda a Quinta: 18h - 23h</p>
+                  <p className="text-muted-foreground">Sexta a Domingo: 18h - 00h</p>
+                  <p className="text-primary font-bold mt-2">Delivery todos os dias!</p>
                 </div>
               </div>
             </div>
 
             {/* Events Banner */}
             <div className="p-6 bg-primary/10 border border-primary/30 rounded-xl">
-              <h4 className="text-xl font-bold text-primary mb-2">Partys, Veranstaltungen & Festivals</h4>
+              <h4 className="text-xl font-bold text-primary mb-2">Festas & Eventos</h4>
               <p className="text-foreground">
-                Wir cateren auch für Ihre privaten Events! Kontaktieren Sie uns für individuelle Angebote.
+                Fazemos buffet de pizzas e esfihas para festas e eventos! Entre em contato para orcamento.
               </p>
             </div>
           </div>

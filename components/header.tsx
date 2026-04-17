@@ -14,13 +14,13 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <img
-              src="/graphics/fooiewagen logo.svg"
-              alt="The Foodie Wagon"
-              className="h-12 md:h-16 w-auto"
+              src="/graphics/blasterchef-logo.jpeg"
+              alt="BlasTerchef"
+              className="h-12 md:h-14 w-12 md:w-14 rounded-full object-cover border-2 border-primary"
             />
             <div className="hidden sm:block">
-              <h1 className="text-primary font-bold text-xl md:text-2xl tracking-wider uppercase">The Foodie Wagon</h1>
-              <p className="text-muted-foreground text-xs tracking-widest">WHERE FLAVOR HITS THE ROAD</p>
+              <h1 className="text-primary font-bold text-xl md:text-2xl tracking-wider uppercase">BlasTerchef</h1>
+              <p className="text-muted-foreground text-xs tracking-widest">PIZZARIA & ESFIHARIA</p>
             </div>
           </Link>
 
@@ -30,34 +30,31 @@ export function Header() {
               href="#menu"
               className="text-foreground hover:text-primary transition-colors font-medium tracking-wide"
             >
-              Speisekarte
+              Cardapio
+            </Link>
+            <Link
+              href="#rodizio"
+              className="text-foreground hover:text-primary transition-colors font-medium tracking-wide"
+            >
+              Rodizio
             </Link>
             <Link
               href="#location"
               className="text-foreground hover:text-primary transition-colors font-medium tracking-wide"
             >
-              Standort
+              Localizacao
             </Link>
             <Link
               href="#contact"
               className="text-foreground hover:text-primary transition-colors font-medium tracking-wide"
             >
-              Kontakt
+              Contato
             </Link>
             <div className="flex items-center gap-2 text-accent">
               <MapPin className="w-5 h-5" />
-              <span className="text-sm font-medium">Ingolstadt</span>
+              <span className="text-sm font-medium">Delivery</span>
             </div>
           </nav>
-
-          {/* Halal Badge */}
-          <div className="hidden lg:flex items-center gap-4">
-            <img
-              src="/graphics/halal logo.svg"
-              alt="100% Halal"
-              className="h-12 w-auto"
-            />
-          </div>
 
           {/* Mobile Menu Button */}
           <button
@@ -78,31 +75,38 @@ export function Header() {
                 className="text-foreground hover:text-primary transition-colors font-medium tracking-wide py-2"
                 onClick={() => setIsOpen(false)}
               >
-                Speisekarte
+                Cardapio
+              </Link>
+              <Link
+                href="#rodizio"
+                className="text-foreground hover:text-primary transition-colors font-medium tracking-wide py-2"
+                onClick={() => setIsOpen(false)}
+              >
+                Rodizio
               </Link>
               <Link
                 href="#location"
                 className="text-foreground hover:text-primary transition-colors font-medium tracking-wide py-2"
                 onClick={() => setIsOpen(false)}
               >
-                Standort
+                Localizacao
               </Link>
               <Link
                 href="#contact"
                 className="text-foreground hover:text-primary transition-colors font-medium tracking-wide py-2"
                 onClick={() => setIsOpen(false)}
               >
-                Kontakt
+                Contato
               </Link>
               <div className="flex items-center justify-between pt-4 border-t border-border">
                 <div className="flex items-center gap-2 text-accent">
                   <MapPin className="w-5 h-5" />
-                  <span className="text-sm font-medium">Ingolstadt</span>
+                  <span className="text-sm font-medium">Delivery Disponivel</span>
                 </div>
                 <img
-                  src="/graphics/halal logo.svg"
-                  alt="100% Halal"
-                  className="h-10 w-auto"
+                  src="/graphics/blasterchef-logo.jpeg"
+                  alt="BlasTerchef"
+                  className="h-10 w-10 rounded-full object-cover"
                 />
               </div>
             </div>

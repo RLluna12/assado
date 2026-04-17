@@ -15,64 +15,60 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://foodiewagon.de'),
+  metadataBase: new URL('https://blasterchef.com.br'),
   title: {
-    default: 'The Foodie Wagon | Premium Halal Burgers & Fried Chicken in Ingolstadt',
-    template: '%s | The Foodie Wagon'
+    default: 'BlasTerchef | Pizzaria & Esfiharia - Rodizio de Pizzas e Esfihas',
+    template: '%s | BlasTerchef'
   },
   description:
-    "Entdecke The Foodie Wagon - Dein Food Truck für premium hausgemachte Halal Burger, knuspriges Fried Chicken, Currywurst und authentisches Street Food in Ingolstadt. 100% Halal zertifiziert. Jetzt bestellen!",
+    "BlasTerchef - A melhor pizzaria e esfiharia da cidade! Pizzas artesanais, esfihas deliciosas e rodizio aos finais de semana. Delivery disponivel. Peca ja!",
   keywords: [
-    "foodie wagon",
-    "food truck ingolstadt",
-    "halal burger ingolstadt",
-    "fried chicken ingolstadt",
-    "halal street food",
-    "burger food truck",
-    "currywurst halal",
-    "beef burger halal",
-    "chicken burger halal",
-    "pommes ingolstadt",
-    "halal fast food",
-    "street food ingolstadt",
-    "food truck bayern",
-    "halal restaurant ingolstadt",
-    "burger lieferung ingolstadt",
-    "chicken wings halal",
-    "onion rings",
-    "chili cheese nuggets",
-    "halal zertifiziert",
-    "hausgemachte burger"
+    "pizzaria",
+    "esfiharia",
+    "rodizio de pizza",
+    "rodizio de esfiha",
+    "pizza delivery",
+    "esfiha delivery",
+    "pizza artesanal",
+    "blasterchef",
+    "pizzaria delivery",
+    "melhor pizza",
+    "esfiha de carne",
+    "pizza margherita",
+    "pizza calabresa",
+    "rodizio",
+    "buffet de pizza",
+    "pizza para festa"
   ],
-  authors: [{ name: 'The Foodie Wagon' }],
-  creator: 'The Foodie Wagon',
-  publisher: 'The Foodie Wagon',
+  authors: [{ name: 'BlasTerchef' }],
+  creator: 'BlasTerchef',
+  publisher: 'BlasTerchef',
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: 'The Foodie Wagon | Premium Halal Burgers & Fried Chicken',
-    description: 'Premium hausgemachte Halal Burger, knuspriges Fried Chicken & authentisches Street Food in Ingolstadt. 100% Halal zertifiziert.',
-    url: 'https://foodiewagon.de',
-    siteName: 'The Foodie Wagon',
-    locale: 'de_DE',
+    title: 'BlasTerchef | Pizzaria & Esfiharia',
+    description: 'Pizzas artesanais, esfihas deliciosas e o melhor rodizio da cidade. Delivery disponivel!',
+    url: 'https://blasterchef.com.br',
+    siteName: 'BlasTerchef',
+    locale: 'pt_BR',
     type: 'website',
     images: [
       {
-        url: '/graphics/tasty burger.svg',
+        url: '/graphics/pizza-hero.jpeg',
         width: 1200,
         height: 630,
-        alt: 'The Foodie Wagon - Premium Halal Burgers',
+        alt: 'BlasTerchef - Pizzaria & Esfiharia',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'The Foodie Wagon | Premium Halal Burgers',
-    description: 'Premium hausgemachte Halal Burger & Fried Chicken in Ingolstadt. 100% Halal zertifiziert.',
-    images: ['/graphics/tasty burger.svg'],
+    title: 'BlasTerchef | Pizzaria & Esfiharia',
+    description: 'Pizzas artesanais, esfihas deliciosas e rodizio aos finais de semana!',
+    images: ['/graphics/pizza-hero.jpeg'],
   },
   robots: {
     index: true,
@@ -91,11 +87,11 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
   manifest: '/site.webmanifest',
-    generator: 'v0.app'
+  generator: 'v0.app'
 }
 
 export const viewport: Viewport = {
-  themeColor: "#1a1a1a",
+  themeColor: "#dc2626",
 }
 
 export default function RootLayout({
@@ -104,9 +100,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="de">
+    <html lang="pt-BR" className="bg-background">
       <head>
-        <link rel="canonical" href="https://foodiewagon.de" />
+        <link rel="canonical" href="https://blasterchef.com.br" />
       </head>
       <body className={`${oswald.variable} ${playfair.variable} font-sans antialiased`}>
         {children}

@@ -6,9 +6,9 @@ export function ContactSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary tracking-tight mb-4">KONTAKT</h2>
+          <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary tracking-tight mb-4">CONTATO</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-            Haben Sie Fragen oder möchten Sie uns für ein Event buchen? Kontaktieren Sie uns!
+            Faca seu pedido ou reserve sua mesa para o rodizio. Estamos esperando voce!
           </p>
         </div>
 
@@ -20,15 +20,15 @@ export function ContactSection() {
               <Phone className="w-8 h-8 text-primary-foreground" />
             </div>
             <div>
-              <p className="text-muted-foreground text-sm mb-2">Telefon</p>
+              <p className="text-muted-foreground text-sm mb-2">Telefone / WhatsApp</p>
               <a
-                href="tel:+4917622245627"
+                href="tel:+5511999999999"
                 className="text-2xl md:text-3xl font-black text-primary hover:text-primary/80 transition-colors"
               >
-                +49 176 22245627
+                (11) 99999-9999
               </a>
             </div>
-            <p className="text-sm text-muted-foreground">Rufen Sie uns direkt an</p>
+            <p className="text-sm text-muted-foreground">Pedidos e Reservas</p>
           </div>
 
           {/* Email Card */}
@@ -39,13 +39,13 @@ export function ContactSection() {
             <div>
               <p className="text-muted-foreground text-sm mb-2">E-Mail</p>
               <a
-                href="mailto:flavor.bytes.gmbh@gmail.com"
+                href="mailto:contato@blasterchef.com.br"
                 className="text-lg md:text-xl font-bold text-primary hover:text-primary/80 transition-colors break-all"
               >
-                flavor.bytes.gmbh@gmail.com
+                contato@blasterchef.com.br
               </a>
             </div>
-            <p className="text-sm text-muted-foreground">Schreiben Sie uns eine E-Mail</p>
+            <p className="text-sm text-muted-foreground">Envie sua mensagem</p>
           </div>
 
           {/* Instagram Card */}
@@ -56,15 +56,15 @@ export function ContactSection() {
             <div>
               <p className="text-muted-foreground text-sm mb-2">Instagram</p>
               <a
-                href="https://www.instagram.com/thefoodiewagon"
+                href="https://www.instagram.com/blasterchef"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg md:text-xl font-bold text-primary hover:text-primary/80 transition-colors"
               >
-                @thefoodiewagon
+                @blasterchef
               </a>
             </div>
-            <p className="text-sm text-muted-foreground">Folgen Sie uns auf Instagram</p>
+            <p className="text-sm text-muted-foreground">Siga-nos no Instagram</p>
           </div>
         </div>
 
@@ -72,14 +72,14 @@ export function ContactSection() {
         <div className="max-w-2xl mx-auto mt-12 p-8 bg-primary/10 rounded-2xl border-2 border-primary/30 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
             <MapPin className="w-6 h-6 text-primary" />
-            <h3 className="text-2xl font-bold text-foreground">Besuchen Sie uns</h3>
+            <h3 className="text-2xl font-bold text-foreground">Visite-nos</h3>
           </div>
           <p className="text-lg text-foreground mb-2">
-            <strong className="text-primary">Jeden Samstag</strong> von 11:00 - 20:00 Uhr
+            <strong className="text-primary">Rodizio</strong> - Sexta, Sabado e Domingo - 18h as 23h
           </p>
-          <p className="text-muted-foreground">Am Westpark 7, 85057 Ingolstadt</p>
+          <p className="text-muted-foreground">Rua das Pizzas, 123 - Centro</p>
           <p className="text-sm text-muted-foreground mt-4">
-            Ansprechpartner: <strong className="text-foreground">Sohaib</strong> (FlavorBytes GmbH)
+            Delivery disponivel todos os dias!
           </p>
         </div>
       </div>
