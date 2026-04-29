@@ -4,6 +4,7 @@ import { Oswald, Playfair_Display } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import { CartProvider } from "@/contexts/cart-context"
 import { CartDrawer } from "@/components/cart-drawer"
+import { Header } from "@/components/header"
 import "./globals.css"
 
 const oswald = Oswald({
@@ -83,13 +84,7 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon-16x16.png',
-    apple: '/apple-touch-icon.png',
-  },
-  manifest: '/site.webmanifest',
-  generator: 'v0.app'
+  manifest: '/site.webmanifest'
 }
 
 export const viewport: Viewport = {
@@ -105,9 +100,12 @@ export default function RootLayout({
     <html lang="pt-BR" className="bg-background">
       <head>
         <link rel="canonical" href="https://blasterchef.com.br" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/favicon.ico" />
       </head>
       <body className={`${oswald.variable} ${playfair.variable} font-sans antialiased`}>
         <CartProvider>
+          <Header />
           {children}
           <CartDrawer />
         </CartProvider>

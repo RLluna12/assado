@@ -1,25 +1,14 @@
 {
-  "name": "The Foodie Wagon",
-  "short_name": "Foodie Wagon",
-  "description": "Premium Halal Burgers & Fried Chicken in Ingolstadt",
+  "name": "BlasTerchef",
+  "short_name": "BlasTerchef",
+  "description": "Pizzaria & Esfiharia",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1a1a1a",
-  "theme_color": "#fbbf24",
+  "theme_color": "#dc2626",
   "orientation": "portrait-primary",
-  "icons": [
-    {
-      "src": "/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/android-chrome-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "categories": ["food", "restaurant", "halal"],
-  "lang": "de-DE",
+  "icons": [],
+  "categories": ["food", "restaurant"],
+  "lang": "pt-BR",
   "dir": "ltr"
 }
