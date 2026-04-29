@@ -5,6 +5,7 @@ import { LocationSection } from "@/components/location-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
 import { StickyCTA } from "@/components/sticky-cta"
+import { SocialButtons } from "@/components/social-buttons"
 
 export default function Home() {
   // Structured Data for SEO (JSON-LD)
@@ -135,6 +136,7 @@ export default function Home() {
         <ContactSection />
         <Footer />
         <StickyCTA />
+        <SocialButtons />
       </main>
     </>
   )
