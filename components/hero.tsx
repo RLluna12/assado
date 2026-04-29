@@ -96,9 +96,9 @@ export function Hero() {
 
               {/* Pizza - Main Hero Image */}
               <img
-                src="/graphics/pizza-hero.jpeg"
-                alt="Nossa Pizza Especial"
-                className="w-full h-full object-contain drop-shadow-[0_0_80px_rgba(220,38,38,0.5)] animate-float"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a-cheesy-delicious-pizza-with-tasty-pepperoni-on-a-transparent-background-png-7ZL16pwVcbclQshrKCHdhziDyXxbwB.webp"
+                alt="Pizza de Pepperoni BlasTerchef"
+                className="w-full h-full object-contain drop-shadow-[0_0_80px_rgba(220,38,38,0.6)] animate-float"
               />
             </div>
           </div>
