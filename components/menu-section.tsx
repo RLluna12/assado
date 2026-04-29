@@ -185,16 +185,34 @@ export function MenuSection() {
         </div>
 
         {/* Rodizio Banner - Eye-Catching */}
-        <div id="rodizio" className="mb-16 relative overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-primary via-red-500 to-primary opacity-20 animate-pulse" />
-          <div className="relative p-8 text-center border-4 border-primary rounded-3xl bg-card">
-            <p className="text-3xl md:text-5xl font-black text-primary tracking-tight mb-2">
-              RODIZIO
-            </p>
-            <p className="text-xl md:text-2xl font-bold text-foreground">
-              Pizzas + Esfihas a vontade = <span className="text-primary">R$ 49,90 por pessoa</span>
-            </p>
-            <p className="text-muted-foreground mt-2">Sexta, Sabado e Domingo - das 18h as 23h</p>
+        <div id="rodizio" className="mb-16 relative overflow-hidden rounded-3xl border-4 border-primary">
+          {/* Foto do restaurante */}
+          <div className="relative h-64 md:h-80 w-full overflow-hidden">
+            <img
+              src="/graphics/restaurante.png"
+              alt="BlasTerchef - Ambiente do restaurante"
+              className="w-full h-full object-cover object-center"
+            />
+            {/* Overlay escuro para legibilidade */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/10" />
+
+            {/* Texto sobre a imagem */}
+            <div className="absolute inset-0 flex flex-col items-center justify-end p-8 text-center">
+              <p className="text-4xl md:text-6xl font-black text-primary tracking-tighter drop-shadow-lg">
+                RODIZIO
+              </p>
+              <p className="text-lg md:text-2xl font-bold text-white mt-1">
+                Pizzas &amp; Esfihas a vontade
+              </p>
+              <div className="mt-3 flex flex-col sm:flex-row items-center gap-3">
+                <span className="bg-primary text-white font-black text-xl md:text-2xl px-6 py-2 rounded-full shadow-lg">
+                  R$ 49,90 por pessoa
+                </span>
+                <span className="text-white/80 text-sm md:text-base font-medium">
+                  Sex, Sab e Dom — 18h as 23h
+                </span>
+              </div>
+            </div>
           </div>
         </div>
 
