@@ -2,10 +2,12 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, Xmark, MapPin } from "iconoir-react"
+import { Menu, Xmark, MapPin, Cart } from "iconoir-react"
+import { useCart } from "@/contexts/cart-context"
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false)
+  const { count, setIsOpen: setCartOpen } = useCart()
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
@@ -55,6 +57,20 @@ export function Header() {
               <span className="text-sm font-medium">Delivery</span>
             </div>
           </nav>
+
+          {/* Botao carrinho */}
+          <button
+            onClick={() => setCartOpen(true)}
+            className="relative p-2.5 rounded-full bg-primary/10 hover:bg-primary/20 text-primary transition-all border border-primary/20 hover:border-primary/40"
+            aria-label="Abrir carrinho"
+          >
+            <Cart className="w-5 h-5" />
+            {count > 0 && (
+              <span className="absolute -top-1.5 -right-1.5 bg-primary text-white text-xs font-black w-5 h-5 rounded-full flex items-center justify-center shadow">
+                {count > 9 ? "9+" : count}
+              </span>
+            )}
+          </button>
 
           {/* Mobile Menu Button */}
           <button

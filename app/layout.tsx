@@ -2,6 +2,8 @@ import type React from "react"
 import type { Metadata, Viewport } from "next"
 import { Oswald, Playfair_Display } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { CartProvider } from "@/contexts/cart-context"
+import { CartDrawer } from "@/components/cart-drawer"
 import "./globals.css"
 
 const oswald = Oswald({
@@ -105,7 +107,10 @@ export default function RootLayout({
         <link rel="canonical" href="https://blasterchef.com.br" />
       </head>
       <body className={`${oswald.variable} ${playfair.variable} font-sans antialiased`}>
-        {children}
+        <CartProvider>
+          {children}
+          <CartDrawer />
+        </CartProvider>
         <Analytics />
       </body>
     </html>
