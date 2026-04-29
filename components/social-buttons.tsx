@@ -21,7 +21,7 @@ export function SocialButtons() {
     <div className="fixed right-4 bottom-24 z-50 flex flex-col gap-3">
       {/* WhatsApp */}
       <a
-        href="https://wa.me/5511999999999?text=Ola%2C%20gostaria%20de%20fazer%20um%20pedido!"
+        href="https://wa.me/5514998100810?text=Ola%2C%20gostaria%20de%20fazer%20um%20pedido!"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chamar no WhatsApp"
@@ -73,7 +73,7 @@ export function SocialButtons() {
 
       {/* Google Maps */}
       <a
-        href="https://maps.google.com/?q=BlasTerchef+Pizzaria"
+        href="https://maps.google.com/?q=R.+Darzizo+Crivelaro,+170,+Iacanga+SP"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Ver no Google Maps"

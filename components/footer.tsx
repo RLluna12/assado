@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Instagram, Phone, Mail, MapPin } from "iconoir-react"
+import { Instagram, Phone, MapPin } from "iconoir-react"
 
 export function Footer() {
   return (
@@ -19,29 +19,26 @@ export function Footer() {
                 <p className="text-muted-foreground text-xs tracking-widest">PIZZARIA & ESFIHARIA</p>
               </div>
             </div>
-            <p className="text-muted-foreground text-sm mb-3">
-              Pizzas artesanais, esfihas deliciosas e o melhor rodizio da cidade. Sabor que conquista!
+            <p className="text-muted-foreground text-sm mb-2">
+              Ambiente familiar, espaco kids, estacionamento e vista deslumbrante para o Lago.
             </p>
-            <div className="flex items-center gap-2 text-muted-foreground">
-              <span className="text-2xl">🍕</span>
-              <span className="text-xs font-medium">Delivery & Rodizio</span>
-            </div>
+            <p className="text-xs text-muted-foreground">Iacanga - SP</p>
           </div>
 
           {/* Quick Links */}
           <div>
             <h4 className="text-foreground font-bold mb-4 tracking-wide">LINKS RAPIDOS</h4>
             <nav className="space-y-2">
-              <Link href="#menu" className="block text-muted-foreground hover:text-primary transition-colors">
+              <Link href="#menu" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
                 Cardapio
               </Link>
-              <Link href="#rodizio" className="block text-muted-foreground hover:text-primary transition-colors">
+              <Link href="#rodizio" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
                 Rodizio
               </Link>
-              <Link href="#location" className="block text-muted-foreground hover:text-primary transition-colors">
+              <Link href="#location" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
                 Localizacao
               </Link>
-              <Link href="#contact" className="block text-muted-foreground hover:text-primary transition-colors">
+              <Link href="#contact" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
                 Contato
               </Link>
             </nav>
@@ -52,30 +49,37 @@ export function Footer() {
             <h4 className="text-foreground font-bold mb-4 tracking-wide">CONTATO</h4>
             <div className="space-y-3">
               <a
-                href="tel:+5511999999999"
-                className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+                href="tel:+5514998100810"
+                className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
               >
-                <Phone className="w-4 h-4" />
-                (11) 99999-9999
+                <Phone className="w-4 h-4 flex-shrink-0" />
+                (14) 99810-0810
               </a>
               <a
-                href="mailto:contato@blasterchef.com.br"
-                className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
+                href="https://www.instagram.com/blasterchef"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
               >
-                <Mail className="w-4 h-4" />
-                contato@blasterchef.com.br
+                <Instagram className="w-4 h-4 flex-shrink-0" />
+                @blasterchef
               </a>
-              <p className="flex items-start gap-2 text-muted-foreground">
-                <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
-                Rua das Pizzas, 123 - Centro
-              </p>
+              <a
+                href="https://maps.google.com/?q=R.+Darzizo+Crivelaro,+170,+Iacanga+SP"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
+              >
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                <span>R. Darzizo Crivelaro, 170<br />Centro, Iacanga - SP<br />Em frente ao Lago</span>
+              </a>
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-border">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4 mb-4">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-muted-foreground text-sm">
               <p>&copy; {new Date().getFullYear()} BlasTerchef. Todos os direitos reservados.</p>
               <span className="hidden md:inline">|</span>
@@ -90,7 +94,7 @@ export function Footer() {
             <div className="flex items-center gap-3">
               {/* WhatsApp */}
               <a
-                href="https://wa.me/5511999999999?text=Ola%2C%20gostaria%20de%20fazer%20um%20pedido!"
+                href="https://wa.me/5514998100810?text=Ola%2C%20gostaria%20de%20fazer%20um%20pedido!"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp BlasTerchef"
@@ -114,7 +118,7 @@ export function Footer() {
               </a>
               {/* Google Maps */}
               <a
-                href="https://maps.google.com/?q=BlasTerchef+Pizzaria"
+                href="https://maps.google.com/?q=R.+Darzizo+Crivelaro,+170,+Iacanga+SP"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Google Maps BlasTerchef"
