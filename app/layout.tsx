@@ -60,6 +60,12 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
+        url: '/graphics/blasterchef-logo.jpeg',
+        width: 400,
+        height: 400,
+        alt: 'BlasTerchef Logo',
+      },
+      {
         url: '/graphics/pizza-hero.jpeg',
         width: 1200,
         height: 630,
@@ -71,7 +77,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'BlasTerchef | Pizzaria & Esfiharia',
     description: 'Pizzas artesanais, esfihas deliciosas e rodizio aos finais de semana!',
-    images: ['/graphics/pizza-hero.jpeg'],
+    images: ['/graphics/blasterchef-logo.jpeg', '/graphics/pizza-hero.jpeg'],
   },
   robots: {
     index: true,
@@ -84,7 +90,15 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
-  manifest: '/site.webmanifest'
+  manifest: '/site.webmanifest',
+  icons: {
+    icon: [
+      { url: '/graphics/blasterchef-logo.jpeg', type: 'image/jpeg' },
+      { url: '/favicon.ico', sizes: 'any' },
+    ],
+    apple: '/graphics/blasterchef-logo.jpeg',
+    shortcut: '/graphics/blasterchef-logo.jpeg',
+  }
 }
 
 export const viewport: Viewport = {
@@ -100,8 +114,9 @@ export default function RootLayout({
     <html lang="pt-BR" className="bg-background">
       <head>
         <link rel="canonical" href="https://blasterchef.com.br" />
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="icon" href="/graphics/blasterchef-logo.jpeg" type="image/jpeg" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/graphics/blasterchef-logo.jpeg" />
       </head>
       <body className={`${oswald.variable} ${playfair.variable} font-sans antialiased`}>
         <CartProvider>
