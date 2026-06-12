@@ -2,7 +2,7 @@
 
 # 🔥 Ponto do Assado
 
-<img src="public/graphics/restaurante.png" alt="Ponto do Assado" width="200" />
+<img src="public/foto.jpeg" alt="Ponto do Assado" width="200" />
 
 ### Frangos Assados na Brasa & Sobremesas da Sara
 
