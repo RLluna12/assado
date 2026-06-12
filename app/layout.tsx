@@ -18,65 +18,64 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://blasterchef.com.br'),
+  metadataBase: new URL('https://pontodoassado.com.br'),
   title: {
-    default: 'BlasTerchef | Pizzaria & Esfiharia - Rodizio de Pizzas e Esfihas',
-    template: '%s | BlasTerchef'
+    default: 'Ponto do Assado | Frango Assado na Brasa & Sobremesas da Sara',
+    template: '%s | Ponto do Assado'
   },
   description:
-    "BlasTerchef - A melhor pizzaria e esfiharia da cidade! Pizzas artesanais, esfihas deliciosas e rodizio aos finais de semana. Delivery disponivel. Peca ja!",
+    "Ponto do Assado - O melhor frango assado na brasa de São Paulo! Frangos suculentos, bolos artesanais da Sara e sobremesas irresistíveis. Venha nos visitar!",
   keywords: [
-    "pizzaria",
-    "esfiharia",
-    "rodizio de pizza",
-    "rodizio de esfiha",
-    "pizza delivery",
-    "esfiha delivery",
-    "pizza artesanal",
-    "blasterchef",
-    "pizzaria delivery",
-    "melhor pizza",
-    "esfiha de carne",
-    "pizza margherita",
-    "pizza calabresa",
-    "rodizio",
-    "buffet de pizza",
-    "pizza para festa"
+    "frango assado",
+    "frango na brasa",
+    "ponto do assado",
+    "frango assado sp",
+    "bolo artesanal",
+    "sobremesas",
+    "frangos assados",
+    "restaurante frango",
+    "frango delivery",
+    "melhor frango assado",
+    "Sara bolos",
+    "frango na brasa São Paulo",
+    "assado",
+    "churrasco",
+    "comida caseira"
   ],
-  authors: [{ name: 'BlasTerchef' }],
-  creator: 'BlasTerchef',
-  publisher: 'BlasTerchef',
+  authors: [{ name: 'Ponto do Assado' }],
+  creator: 'Ponto do Assado',
+  publisher: 'Ponto do Assado',
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   openGraph: {
-    title: 'BlasTerchef | Pizzaria & Esfiharia',
-    description: 'Pizzas artesanais, esfihas deliciosas e o melhor rodizio da cidade. Delivery disponivel!',
-    url: 'https://blasterchef.com.br',
-    siteName: 'BlasTerchef',
+    title: 'Ponto do Assado | Frango Assado na Brasa',
+    description: 'O melhor frango assado na brasa de São Paulo. Bolos artesanais da Sara e sobremesas irresistíveis!',
+    url: 'https://pontodoassado.com.br',
+    siteName: 'Ponto do Assado',
     locale: 'pt_BR',
     type: 'website',
     images: [
       {
-        url: '/graphics/blasterchef-logo.jpeg',
+        url: 'logo.png',
         width: 400,
         height: 400,
-        alt: 'BlasTerchef Logo',
+        alt: 'Ponto do Assado Logo',
       },
       {
-        url: '/graphics/pizza-hero.jpeg',
+        url: 'logo.png',
         width: 1200,
         height: 630,
-        alt: 'BlasTerchef - Pizzaria & Esfiharia',
+        alt: 'Ponto do Assado - Frango Assado na Brasa',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'BlasTerchef | Pizzaria & Esfiharia',
-    description: 'Pizzas artesanais, esfihas deliciosas e rodizio aos finais de semana!',
+    title: 'Ponto do Assado | Frango Assado na Brasa',
+    description: 'O melhor frango assado na brasa de São Paulo. Bolos artesanais da Sara!',
     images: ['logo.png'],
   },
   robots: {
@@ -93,7 +92,7 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
   icons: {
     icon: [
-      { url: 'logo.png', type: 'image/jpeg' },
+      { url: '/logo.png', type: 'image/jpeg' },
       { url: '/favicon.ico', sizes: 'any' },
     ],
     apple: 'logo.png',
@@ -113,10 +112,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className="bg-background">
       <head>
-        <link rel="canonical" href="https://blasterchef.com.br" />
-        <link rel="icon" href="/graphics/blasterchef-logo.jpeg" type="image/jpeg" />
+        <link rel="canonical" href="https://pontodoassado.com.br" />
+        <link rel="icon" href="/logo.png" type="image/png" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon" href="/graphics/blasterchef-logo.jpeg" />
+        <link rel="apple-touch-icon" href="/logo.png" />
       </head>
       <body className={`${oswald.variable} ${playfair.variable} font-sans antialiased`}>
         <CartProvider>
