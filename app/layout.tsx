@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'BlasTerchef | Pizzaria & Esfiharia',
     description: 'Pizzas artesanais, esfihas deliciosas e rodizio aos finais de semana!',
-    images: ['/graphics/blasterchef-logo.jpeg', '/graphics/pizza-hero.jpeg'],
+    images: ['logo.png'],
   },
   robots: {
     index: true,
@@ -93,11 +93,11 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
   icons: {
     icon: [
-      { url: '/graphics/blasterchef-logo.jpeg', type: 'image/jpeg' },
+      { url: 'logo.png', type: 'image/jpeg' },
       { url: '/favicon.ico', sizes: 'any' },
     ],
-    apple: '/graphics/blasterchef-logo.jpeg',
-    shortcut: '/graphics/blasterchef-logo.jpeg',
+    apple: 'logo.png',
+    shortcut: 'logo.png',
   }
 }
 

@@ -10,17 +10,17 @@ export function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <img
-                src="/graphics/blasterchef-logo.jpeg"
-                alt="BlasTerchef"
+                src="/logo.png"
+                alt="Ponto do Assado"
                 className="h-12 w-12 rounded-full object-cover border-2 border-primary"
               />
               <div>
-                <h3 className="text-primary font-bold text-lg tracking-wider uppercase">BlasTerchef</h3>
-                <p className="text-muted-foreground text-xs tracking-widest">PIZZARIA & ESFIHARIA</p>
+                <h3 className="text-primary font-bold text-lg tracking-wider uppercase">Ponto do Assado</h3>
+                <p className="text-muted-foreground text-xs tracking-widest">FRANGO ASSADO & BOLOS DA SARA</p>
               </div>
             </div>
             <p className="text-muted-foreground text-sm mb-2">
-              Ambiente familiar, espaco kids, estacionamento e vista deslumbrante para o Lago.
+              Frango assado fresquinho todo dia e os irresistiveis bolos da Sara sob encomenda.
             </p>
             <p className="text-xs text-muted-foreground">Iacanga - SP</p>
           </div>
@@ -32,8 +32,8 @@ export function Footer() {
               <Link href="#menu" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
                 Cardapio
               </Link>
-              <Link href="#rodizio" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
-                Rodizio
+              <Link href="#bolos" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
+                Bolos da Sara
               </Link>
               <Link href="#location" className="block text-muted-foreground hover:text-primary transition-colors text-sm">
                 Localizacao
@@ -62,7 +62,7 @@ export function Footer() {
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
               >
                 <Instagram className="w-4 h-4 flex-shrink-0" />
-                @blasterchef
+                @pontodoassado
               </a>
               <a
                 href="https://maps.google.com/?q=R.+Darzizo+Crivelaro,+170,+Iacanga+SP"
@@ -81,7 +81,7 @@ export function Footer() {
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-muted-foreground text-sm">
-              <p>&copy; {new Date().getFullYear()} BlasTerchef. Todos os direitos reservados.</p>
+              <p>&copy; {new Date().getFullYear()} Ponto do Assado. Todos os direitos reservados.</p>
               <span className="hidden md:inline">|</span>
               <Link href="/impressum" className="hover:text-primary transition-colors">
                 Termos de Uso
@@ -97,7 +97,7 @@ export function Footer() {
                 href="https://wa.me/5514998100810?text=Ola%2C%20gostaria%20de%20fazer%20um%20pedido!"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="WhatsApp BlasTerchef"
+                aria-label="WhatsApp Ponto do Assado"
                 className="w-10 h-10 rounded-full bg-[#25D366] flex items-center justify-center hover:scale-110 transition-transform shadow"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" className="w-5 h-5">
@@ -110,7 +110,7 @@ export function Footer() {
                 href="https://www.instagram.com/blasterchef"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Instagram BlasTerchef"
+                aria-label="Instagram Ponto do Assado"
                 className="w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-transform shadow"
                 style={{ background: "radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)" }}
               >
@@ -121,7 +121,7 @@ export function Footer() {
                 href="https://maps.google.com/?q=R.+Darzizo+Crivelaro,+170,+Iacanga+SP"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="Google Maps BlasTerchef"
+                aria-label="Google Maps Ponto do Assado"
                 className="w-10 h-10 rounded-full bg-white flex items-center justify-center hover:scale-110 transition-transform shadow border border-gray-100"
               >
                 <MapPin className="w-5 h-5 text-[#EA4335]" />

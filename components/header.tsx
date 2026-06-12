@@ -16,13 +16,13 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <img
-              src="/graphics/blasterchef-logo.jpeg"
+              src="logo.png"
               alt="BlasTerchef"
               className="h-12 md:h-14 w-12 md:w-14 rounded-full object-cover border-2 border-primary"
             />
             <div className="hidden sm:block">
-              <h1 className="text-primary font-bold text-xl md:text-2xl tracking-wider uppercase">BlasTerchef</h1>
-              <p className="text-muted-foreground text-xs tracking-widest">PIZZARIA & ESFIHARIA</p>
+              <h1 className="text-primary font-bold text-xl md:text-2xl tracking-wider uppercase">Ponto do Assado</h1>
+              <p className="text-muted-foreground text-xs tracking-widest">FRANGO ASSADO & BOLOS DA SARA</p>
             </div>
           </Link>
 
@@ -35,10 +35,10 @@ export function Header() {
               Cardapio
             </Link>
             <Link
-              href="#rodizio"
+              href="#bolos"
               className="text-foreground hover:text-primary transition-colors font-medium tracking-wide"
             >
-              Rodizio
+              Bolos da Sara
             </Link>
             <Link
               href="#location"
@@ -94,11 +94,11 @@ export function Header() {
                 Cardapio
               </Link>
               <Link
-                href="#rodizio"
+                href="#bolos"
                 className="text-foreground hover:text-primary transition-colors font-medium tracking-wide py-2"
                 onClick={() => setIsOpen(false)}
               >
-                Rodizio
+                Bolos da Sara
               </Link>
               <Link
                 href="#location"
@@ -120,8 +120,8 @@ export function Header() {
                   <span className="text-sm font-medium">Delivery Disponivel</span>
                 </div>
                 <img
-                  src="/graphics/blasterchef-logo.jpeg"
-                  alt="BlasTerchef"
+                  src="/logo.png"
+                  alt="Ponto do Assado"
                   className="h-10 w-10 rounded-full object-cover"
                 />
               </div>

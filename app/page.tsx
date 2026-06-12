@@ -15,8 +15,8 @@ export default function Home() {
       {
         "@type": "Restaurant",
         "@id": "https://blasterchef.com.br/#restaurant",
-        "name": "BlasTerchef",
-        "description": "Pizzaria e Esfiharia - Pizzas artesanais, esfihas deliciosas e o melhor rodizio da cidade",
+        "name": "Ponto do Assado",
+        "description": "Frango Assado fresquinho e os melhores Bolos da Sara",
         "url": "https://blasterchef.com.br",
         "telephone": "+55-11-99999-9999",
         "servesCuisine": ["Pizza", "Esfiha", "Italiana", "Arabe"],
@@ -50,7 +50,7 @@ export default function Home() {
       {
         "@type": "FoodEstablishment",
         "@id": "https://blasterchef.com.br/#foodestablishment",
-        "name": "BlasTerchef",
+        "name": "Ponto do Assado",
         "hasMenu": {
           "@type": "Menu",
           "hasMenuSection": [
@@ -71,7 +71,7 @@ export default function Home() {
                 },
                 {
                   "@type": "MenuItem",
-                  "name": "Pizza BlasTerchef",
+                  "name": "Pizza Ponto do Assado",
                   "description": "Nossa especialidade: mussarela, pepperoni, bacon, cheddar, cebola caramelizada e molho especial",
                   "offers": {
                     "@type": "Offer",
@@ -104,7 +104,7 @@ export default function Home() {
       {
         "@type": "LocalBusiness",
         "@id": "https://blasterchef.com.br/#localbusiness",
-        "name": "BlasTerchef",
+        "name": "Ponto do Assado",
         "description": "Pizzaria e Esfiharia com rodizio aos finais de semana",
         "slogan": "Sabor que Conquista"
       },
@@ -112,7 +112,7 @@ export default function Home() {
         "@type": "WebSite",
         "@id": "https://blasterchef.com.br/#website",
         "url": "https://blasterchef.com.br",
-        "name": "BlasTerchef",
+        "name": "Ponto do Assado",
         "description": "Pizzaria e Esfiharia - Pizzas, Esfihas e Rodizio",
         "publisher": {
           "@id": "https://blasterchef.com.br/#restaurant"

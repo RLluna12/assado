@@ -24,11 +24,11 @@ export function StickyCTA() {
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
           {/* Location Info */}
           <div className="flex items-center gap-2 text-primary-foreground">
-            <span className="text-2xl hidden md:block">🍕</span>
+            <span className="text-2xl hidden md:block">🍗</span>
             <div className="flex items-center gap-2 text-sm">
               <MapPin className="w-4 h-4" />
-              <span className="font-bold">Rodizio Sex-Dom</span>
-              <span className="hidden sm:inline">| R$ 49,90 por pessoa</span>
+              <span className="font-bold">Ponto do Assado</span>
+              <span className="hidden sm:inline">| Frango Assado & Bolos da Sara</span>
             </div>
           </div>
 

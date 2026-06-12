@@ -15,36 +15,36 @@ export function Hero() {
 
         {/* Logo */}
         <img
-          src="/graphics/blasterchef-logo.jpeg"
-          alt="BlasTerchef Logo"
+          src="hero-bg.png"
+          alt="Ponto do Assado"
           className="h-24 w-24 rounded-full object-cover border-4 border-primary shadow-2xl shadow-primary/40 mb-6"
         />
 
         {/* Main Title */}
         <h1 className="text-5xl sm:text-7xl md:text-8xl font-bold tracking-tight mb-3">
-          <span className="text-primary">BLAS</span>
-          <span className="text-foreground">TER</span>
-          <span className="text-primary">CHEF</span>
+          <span className="text-primary">PONTO</span>
+          <span className="text-foreground"> DO </span>
+          <span className="text-primary">ASSADO</span>
         </h1>
 
         {/* Tagline */}
         <p className="text-xl sm:text-2xl text-muted-foreground font-light tracking-wide mb-6">
-          Pizzaria &amp; Esfiharia
+          Frango Assado &amp; Bolos da Sara
         </p>
 
-        {/* Pizza Hero Image */}
+        {/* Hero Image */}
         <div className="relative w-full max-w-lg mx-auto my-2">
           <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl animate-pulse scale-75" />
           <img
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/a-cheesy-delicious-pizza-with-tasty-pepperoni-on-a-transparent-background-png-7ZL16pwVcbclQshrKCHdhziDyXxbwB.webp"
-            alt="Pizza de Pepperoni BlasTerchef"
+            src="/frango1.png"
+            alt="Frango Assado"
             className="relative w-full object-contain drop-shadow-[0_0_80px_rgba(220,38,38,0.7)] animate-float"
           />
         </div>
 
         {/* Description */}
         <p className="text-base sm:text-lg text-foreground/80 max-w-xl mb-8 leading-relaxed">
-          Pizzas artesanais, esfihas deliciosas e o melhor rodizio da cidade. Sabor que conquista em cada fatia!
+          O melhor frango assado da regiao, acompanhamentos deliciosos e os irresistiveis bolos da Sara. Sabor de verdade em cada pedaco!
         </p>
 
         {/* CTA Buttons */}
@@ -68,12 +68,12 @@ export function Hero() {
         {/* Stats */}
         <div className="grid grid-cols-3 gap-8 mb-12">
           <div className="text-center">
-            <p className="text-3xl sm:text-4xl font-bold text-primary">20+</p>
-            <p className="text-xs sm:text-sm text-muted-foreground tracking-wide">PIZZAS</p>
+            <p className="text-3xl sm:text-4xl font-bold text-primary">100%</p>
+            <p className="text-xs sm:text-sm text-muted-foreground tracking-wide">FRANGO FRESCO</p>
           </div>
           <div className="text-center">
-            <p className="text-3xl sm:text-4xl font-bold text-primary">15+</p>
-            <p className="text-xs sm:text-sm text-muted-foreground tracking-wide">ESFIHAS</p>
+            <p className="text-3xl sm:text-4xl font-bold text-primary">10+</p>
+            <p className="text-xs sm:text-sm text-muted-foreground tracking-wide">BOLOS</p>
           </div>
           <div className="text-center">
             <p className="text-3xl sm:text-4xl font-bold text-primary">100%</p>
