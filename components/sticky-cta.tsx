@@ -34,7 +34,7 @@ export function StickyCTA() {
 
           {/* Call to Action */}
           <a
-            href="tel:+5511999999999"
+            href="tel:+5511954364018"
             className="group flex items-center gap-2 px-6 py-2.5 bg-primary-foreground text-primary font-black tracking-wider rounded-lg hover:scale-105 transition-transform shadow-lg"
           >
             <Phone className="w-5 h-5 animate-pulse" />

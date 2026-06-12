@@ -50,7 +50,7 @@ export function Hero() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 w-full max-w-sm sm:max-w-none">
           <a
-            href="tel:+5511999999999"
+            href="tel:+5511954364018"
             className="flex items-center gap-3 px-8 py-4 bg-primary text-primary-foreground font-bold tracking-wider rounded-lg hover:bg-primary/90 transition-all shadow-2xl shadow-primary/50 w-full sm:w-auto justify-center"
           >
             <Phone className="w-5 h-5" />

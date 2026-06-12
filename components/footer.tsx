@@ -22,7 +22,7 @@ export function Footer() {
             <p className="text-muted-foreground text-sm mb-2">
               Frango assado fresquinho todo dia e os irresistiveis bolos da Sara sob encomenda.
             </p>
-            <p className="text-xs text-muted-foreground">Iacanga - SP</p>
+            <p className="text-xs text-muted-foreground">Mauá - SP</p>
           </div>
 
           {/* Quick Links */}
@@ -49,14 +49,14 @@ export function Footer() {
             <h4 className="text-foreground font-bold mb-4 tracking-wide">CONTATO</h4>
             <div className="space-y-3">
               <a
-                href="tel:+5514998100810"
+                href="tel:+5511954364018"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
               >
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                (14) 99810-0810
+                (11) 95436-4018
               </a>
               <a
-                href="https://www.instagram.com/blasterchef"
+                href="https://www.instagram.com/pontodoassado"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
@@ -65,13 +65,13 @@ export function Footer() {
                 @pontodoassado
               </a>
               <a
-                href="https://maps.google.com/?q=R.+Darzizo+Crivelaro,+170,+Iacanga+SP"
+                href="https://maps.google.com/?q=Av.+Bar%C3%A3o+de+Mau%C3%A1,+Mau%C3%A1+SP"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
               >
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>R. Darzizo Crivelaro, 170<br />Centro, Iacanga - SP<br />Em frente ao Lago</span>
+                <span>Av. Barão de Mauá<br />Mauá - SP</span>
               </a>
             </div>
           </div>
@@ -94,7 +94,7 @@ export function Footer() {
             <div className="flex items-center gap-3">
               {/* WhatsApp */}
               <a
-                href="https://wa.me/5514998100810?text=Ola%2C%20gostaria%20de%20fazer%20um%20pedido!"
+                href="https://wa.me/5511954364018?text=Ola%2C%20gostaria%20de%20fazer%20um%20pedido!"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="WhatsApp Ponto do Assado"
@@ -107,7 +107,7 @@ export function Footer() {
               </a>
               {/* Instagram */}
               <a
-                href="https://www.instagram.com/blasterchef"
+                href="https://www.instagram.com/pontodoassado"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram Ponto do Assado"
@@ -118,7 +118,7 @@ export function Footer() {
               </a>
               {/* Google Maps */}
               <a
-                href="https://maps.google.com/?q=R.+Darzizo+Crivelaro,+170,+Iacanga+SP"
+                href="https://maps.google.com/?q=Av.+Bar%C3%A3o+de+Mau%C3%A1,+Mau%C3%A1+SP"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Google Maps Ponto do Assado"

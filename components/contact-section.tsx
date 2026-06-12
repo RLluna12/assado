@@ -22,10 +22,10 @@ export function ContactSection() {
             <div>
               <p className="text-muted-foreground text-sm mb-2">Telefone / WhatsApp</p>
               <a
-                href="tel:+5514998100810"
+                href="tel:+5511954364018"
                 className="text-2xl md:text-3xl font-black text-primary hover:text-primary/80 transition-colors"
               >
-                (14) 99810-0810
+                (11) 95436-4018
               </a>
             </div>
             <p className="text-sm text-muted-foreground">Pedidos e Reservas</p>
@@ -39,12 +39,12 @@ export function ContactSection() {
             <div>
               <p className="text-muted-foreground text-sm mb-2">Instagram</p>
               <a
-                href="https://www.instagram.com/blasterchef"
+                href="https://www.instagram.com/pontodoassado"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg md:text-xl font-bold text-primary hover:text-primary/80 transition-colors"
               >
-                @blasterchef
+                @pontodoassado
               </a>
             </div>
             <p className="text-sm text-muted-foreground">Siga-nos no Instagram</p>
@@ -58,13 +58,12 @@ export function ContactSection() {
             <div>
               <p className="text-muted-foreground text-sm mb-2">Endereco</p>
               <p className="text-base font-bold text-foreground leading-snug">
-                R. Darzizo Crivelaro, 170
+                Av. Barão de Mauá
               </p>
-              <p className="text-sm text-muted-foreground">Centro, Iacanga - SP</p>
-              <p className="text-xs text-muted-foreground">Em frente ao Lago</p>
+              <p className="text-sm text-muted-foreground">Mauá - SP</p>
             </div>
             <a
-              href="https://maps.google.com/?q=R.+Darzizo+Crivelaro,+170,+Iacanga+SP"
+              href="https://maps.google.com/?q=Av.+Bar%C3%A3o+de+Mau%C3%A1,+Mau%C3%A1+SP"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-semibold text-primary hover:underline"
@@ -74,58 +73,6 @@ export function ContactSection() {
           </div>
         </div>
 
-        {/* Horarios + Diferenciais */}
-        <div className="max-w-4xl mx-auto mt-12 grid sm:grid-cols-2 gap-6">
-          {/* Horarios */}
-          <div className="p-8 bg-primary/10 rounded-2xl border-2 border-primary/30">
-            <div className="flex items-center gap-3 mb-5">
-              <Clock className="w-6 h-6 text-primary" />
-              <h3 className="text-xl font-bold text-foreground">Horario de Funcionamento</h3>
-            </div>
-            <ul className="space-y-2 text-sm">
-              <li className="flex justify-between text-muted-foreground">
-                <span>Segunda-feira</span>
-                <span className="text-destructive font-semibold">Fechado</span>
-              </li>
-              <li className="flex justify-between text-muted-foreground">
-                <span>Terca a Quinta</span>
-                <span className="font-semibold text-foreground">19:00 – 22:30</span>
-              </li>
-              <li className="flex justify-between text-muted-foreground">
-                <span>Sexta-feira</span>
-                <span className="font-semibold text-foreground">19:00 – 23:30</span>
-              </li>
-              <li className="flex justify-between text-muted-foreground">
-                <span>Sabado</span>
-                <span className="font-semibold text-foreground">19:00 – 23:30</span>
-              </li>
-              <li className="flex justify-between text-muted-foreground">
-                <span>Domingo</span>
-                <span className="font-semibold text-foreground">19:00 – 22:30</span>
-              </li>
-            </ul>
-          </div>
-
-          {/* Diferenciais */}
-          <div className="p-8 bg-card rounded-2xl border-2 border-border">
-            <h3 className="text-xl font-bold text-foreground mb-5">Por que nos escolher?</h3>
-            <ul className="space-y-3">
-              {[
-                "Ambiente familiar aconchegante",
-                "Espaco kids completo",
-                "Estacionamento proprio",
-                "Vista deslumbrante para o Lago",
-                "Cardapio infantil",
-                "Buffet a vontade",
-              ].map((item) => (
-                <li key={item} className="flex items-center gap-3 text-sm text-muted-foreground">
-                  <span className="w-2 h-2 rounded-full bg-primary flex-shrink-0" />
-                  {item}
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
       </div>
     </section>
   )

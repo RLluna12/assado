@@ -57,7 +57,7 @@ export function CartDrawer() {
     e.preventDefault()
     if (!name.trim() || !address.trim()) return
     const msg = buildWhatsAppMessage()
-    window.open(`https://wa.me/5511999999999?text=${msg}`, "_blank")
+    window.open(`https://wa.me/5511954364018?text=${msg}`, "_blank")
     clearCart()
     setIsOpen(false)
     setStep("cart")

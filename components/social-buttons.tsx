@@ -21,7 +21,7 @@ export function SocialButtons() {
     <div className="fixed right-4 bottom-24 z-50 flex flex-col gap-3">
       {/* WhatsApp */}
       <a
-        href="https://wa.me/5514998100810?text=Ola%2C%20gostaria%20de%20fazer%20um%20pedido!"
+        href="https://wa.me/5511954364018?text=Ola%2C%20gostaria%20de%20fazer%20um%20pedido!"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chamar no WhatsApp"
@@ -45,7 +45,7 @@ export function SocialButtons() {
 
       {/* Instagram */}
       <a
-        href="https://www.instagram.com/blasterchef"
+        href="https://www.instagram.com/pontodoassado"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Ver no Instagram"
@@ -73,7 +73,7 @@ export function SocialButtons() {
 
       {/* Google Maps */}
       <a
-        href="https://maps.google.com/?q=R.+Darzizo+Crivelaro,+170,+Iacanga+SP"
+        href="https://maps.google.com/?q=Av.+Bar%C3%A3o+de+Mau%C3%A1,+Mau%C3%A1+SP"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Ver no Google Maps"
