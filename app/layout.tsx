@@ -92,7 +92,7 @@ export const metadata: Metadata = {
   manifest: '/site.webmanifest',
   icons: {
     icon: [
-      { url: '/logo.png', type: 'image/jpeg' },
+      { url: '/logo.png', type: 'image/png' },
       { url: '/favicon.ico', sizes: 'any' },
     ],
     apple: 'logo.png',
