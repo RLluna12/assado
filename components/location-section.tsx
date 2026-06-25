@@ -7,7 +7,7 @@ export function LocationSection() {
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary tracking-tight mb-4">
-            LOCALIZACAO
+            LOCALIZAÇÃO
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Av. Barão de Mauá — venha nos visitar em Mauá/SP!
@@ -41,11 +41,11 @@ export function LocationSection() {
                 <div>
                   <h3 className="text-xl font-bold text-foreground mb-1">Nosso Endereco</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Av. Barão de Mauá<br />
+                    Av. Barão de Mauá, Número 4713<br />
                     Mauá - SP
                   </p>
                   <a
-                    href="https://maps.google.com/?q=Av.+Bar%C3%A3o+de+Mau%C3%A1,+Mau%C3%A1+SP"
+                    href="https://maps.google.com/?q=Av.+Bar%C3%A3o+de+Mau%C3%A1,+4713,+Mau%C3%A1+SP"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block mt-3 text-sm font-bold text-primary hover:underline"
@@ -64,11 +64,11 @@ export function LocationSection() {
                   <div className="space-y-1 text-sm">
                     <div className="flex justify-between gap-4">
                       <span className="text-muted-foreground">Segunda a Sabado</span>
-                      <span className="text-foreground font-semibold">08:00 – 17:00</span>
+                      <span className="text-foreground font-semibold">11:00 – 20:00</span>
                     </div>
                     <div className="flex justify-between gap-4">
                       <span className="text-muted-foreground">Domingo</span>
-                      <span className="text-destructive font-bold">Aberto</span>
+                      <span className="text-destructive font-bold">Aberto das 06h - 14h</span>
                     </div>
                   </div>
                 </div>

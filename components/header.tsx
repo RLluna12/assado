@@ -38,13 +38,13 @@ export function Header() {
               href="#bolos"
               className="text-foreground hover:text-primary transition-colors font-medium tracking-wide"
             >
-              Bolos da Sara
+              Doces
             </Link>
             <Link
               href="#location"
               className="text-foreground hover:text-primary transition-colors font-medium tracking-wide"
             >
-              Localizacao
+              Localização
             </Link>
             <Link
               href="#contact"
@@ -113,14 +113,14 @@ export function Header() {
                 className="text-foreground hover:text-primary transition-colors font-medium tracking-wide py-2"
                 onClick={() => setIsOpen(false)}
               >
-                Bolos da Sara
+                Doces
               </Link>
               <Link
                 href="#location"
                 className="text-foreground hover:text-primary transition-colors font-medium tracking-wide py-2"
                 onClick={() => setIsOpen(false)}
               >
-                Localizacao
+                Localização
               </Link>
               <Link
                 href="#contact"

@@ -8,7 +8,7 @@ export function ContactSection() {
         <div className="text-center mb-12 md:mb-16">
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary tracking-tight mb-4">CONTATO</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Faca seu pedido ou reserve sua mesa para o rodizio. Estamos esperando voce!
+            Faca seu pedido. Estamos esperando você!
           </p>
         </div>
 
@@ -39,12 +39,12 @@ export function ContactSection() {
             <div>
               <p className="text-muted-foreground text-sm mb-2">Instagram</p>
               <a
-                href="https://www.instagram.com/pontodoassado"
+                href="https://www.instagram.com/__pontodoassado"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg md:text-xl font-bold text-primary hover:text-primary/80 transition-colors"
               >
-                @pontodoassado
+                @__pontodoassado
               </a>
             </div>
             <p className="text-sm text-muted-foreground">Siga-nos no Instagram</p>
@@ -56,14 +56,14 @@ export function ContactSection() {
               <MapPin className="w-8 h-8 text-primary-foreground" />
             </div>
             <div>
-              <p className="text-muted-foreground text-sm mb-2">Endereco</p>
+              <p className="text-muted-foreground text-sm mb-2">Endereço</p>
               <p className="text-base font-bold text-foreground leading-snug">
-                Av. Barão de Mauá
+                Av. Barão de Mauá, 4713
               </p>
               <p className="text-sm text-muted-foreground">Mauá - SP</p>
             </div>
             <a
-              href="https://maps.google.com/?q=Av.+Bar%C3%A3o+de+Mau%C3%A1,+Mau%C3%A1+SP"
+              href="https://maps.google.com/?q=Av.+Bar%C3%A3o+de+Mau%C3%A1,+4713,+Mau%C3%A1+SP"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm font-semibold text-primary hover:underline"

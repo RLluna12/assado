@@ -56,13 +56,13 @@ export function Footer() {
                 (11) 95436-4018
               </a>
               <a
-                href="https://www.instagram.com/pontodoassado"
+                href="https://www.instagram.com/__pontodoassado"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
               >
                 <Instagram className="w-4 h-4 flex-shrink-0" />
-                @pontodoassado
+                @__pontodoassado
               </a>
               <a
                 href="https://maps.google.com/?q=Av.+Bar%C3%A3o+de+Mau%C3%A1,+Mau%C3%A1+SP"
