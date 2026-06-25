@@ -45,7 +45,7 @@ export function SocialButtons() {
 
       {/* Instagram */}
       <a
-        href="https://www.instagram.com/pontodoassado"
+        href="https://www.instagram.com/__pontodoassado"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Ver no Instagram"
