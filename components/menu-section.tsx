@@ -2,10 +2,11 @@
 
 import { useState, useEffect } from "react"
 import { MenuCategory } from "./menu-category"
-import { CoffeeCup, Sparks, Chocolate } from "iconoir-react"
+import { CoffeeCup, Sparks, Chocolate, Bbq } from "iconoir-react"
 
 const categories = [
   { id: "frango", label: "Frango Assado", icon: Sparks },
+  { id: "espetos", label: "Espetos", icon: Bbq },
   { id: "bolos", label: "Bolos da Sara", icon: Chocolate },
   { id: "drinks", label: "Bebidas", icon: CoffeeCup },
 ]
@@ -99,6 +100,43 @@ const menuItems = {
       image: "https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?w=600&q=80",
     },
   ],
+  espetos: [
+    {
+      name: "Espeto de Carne Bovina",
+      price: "R$ 12,00",
+      description: "Espeto de carne bovina temperada na brasa",
+      spiceLevel: 0,
+      image: "https://tudoemcarnes.com.br/assets/img/ProdutosTC/Espetos/bovino/CARNE.avif",
+    },
+    {
+      name: "Espeto de Linguiça",
+      price: "R$ 10,00",
+      description: "Linguiça toscana suculenta assada na brasa",
+      spiceLevel: 1,
+      image: "https://tudoemcarnes.com.br/assets/img/ProdutosTC/Espetos/suino/LINGUICA TOSCANA.avif",
+    },
+    {
+      name: "Espeto de Kafta",
+      price: "R$ 12,00",
+      description: "Kafta temperada com especiarias árabes grelhada no espeto",
+      spiceLevel: 1,
+      image: "https://tudoemcarnes.com.br/assets/img/ProdutosTC/Espetos/bovino/KAFTA.avif",
+    },
+    {
+      name: "Espeto de Frango",
+      price: "R$ 10,00",
+      description: "Frango temperado e assado lentamente na brasa",
+      spiceLevel: 0,
+      image: "https://tudoemcarnes.com.br/assets/img/ProdutosTC/Espetos/aves/FRANGO.avif",
+    },
+    {
+      name: "Pão de Alho",
+      price: "R$ 7,00",
+      description: "Baguete crocante com manteiga de alho e ervas",
+      spiceLevel: 0,
+      image: "https://tudoemcarnes.com.br/assets/img/ProdutosTC/Espetos/paes/BAGUETETRADICIONAL.avif",
+    },
+  ],
   drinks: [
     { name: "Coca Cola 2L", price: "R$ 12,00", description: "Refrigerante 2 litros", image: "/graphics/bebidas.jpg" },
     { name: "Guarana Antarctica 2L", price: "R$ 10,00", description: "Refrigerante 2 litros", image: "/graphics/bebidas.jpg" },
@@ -135,7 +173,7 @@ export function MenuSection() {
         <div id="bolos" className="-mt-20 pt-20 pointer-events-none absolute" />
 
         {/* Category Tabs */}
-        <div className="grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:justify-center sm:gap-3 mb-10 sm:mb-16">
+        <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:justify-center sm:gap-3 mb-10 sm:mb-16">
           {categories.map((category) => {
             return (
               <button

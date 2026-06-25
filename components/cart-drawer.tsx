@@ -30,7 +30,7 @@ export function CartDrawer() {
 
   function buildWhatsAppMessage() {
     const lines: string[] = []
-    lines.push("*🍕 Novo Pedido - BlasTerchef*")
+    lines.push("*🍕 Novo Pedido - Ponto do Assado*")
     lines.push("")
     lines.push("*Itens:*")
     items.forEach((item) => {
