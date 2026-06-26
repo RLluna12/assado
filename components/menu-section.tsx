@@ -138,12 +138,33 @@ const menuItems = {
     },
   ],
   drinks: [
-    { name: "Coca Cola 2L", price: "R$ 12,00", description: "Refrigerante 2 litros", image: "/graphics/bebidas.jpg" },
-    { name: "Guarana Antarctica 2L", price: "R$ 10,00", description: "Refrigerante 2 litros", image: "/graphics/bebidas.jpg" },
-    { name: "Suco Natural", price: "R$ 8,00", description: "Laranja, Limao ou Maracuja", image: "/graphics/bebidas.jpg" },
-    { name: "Agua Mineral", price: "R$ 4,00", description: "Com ou sem gas - 500ml", image: "/graphics/bebidas.jpg" },
-    { name: "Cerveja Heineken", price: "R$ 12,00", description: "Long neck 330ml", image: "/graphics/bebidas.jpg" },
-    { name: "Cerveja Brahma", price: "R$ 8,00", description: "Lata 350ml", image: "/graphics/bebidas.jpg" },
+     // Refrigerantes
+    { name: "Coca-Cola", price: "R$ 6,00", description: "Lata 350ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/435101-800-auto?v=638424126588370000&width=800&height=auto&aspect=true" },
+    { name: "Pepsi", price: "R$ 7,00", description: "Lata 350ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/464756-800-auto?v=638732629983900000&width=800&height=auto&aspect=true" },
+    { name: "Fanta", price: "R$ 6,00", description: "Lata 350ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/348216-800-auto?v=638080337081170000&width=800&height=auto&aspect=true" },
+    { name: "Tubaína", price: "R$ 5,00", description: "Lata 350ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/353153-800-auto?v=638080418416900000&width=800&height=auto&aspect=true" },
+    { name: "Soda Limonada", price: "R$ 6,00", description: "Lata 350ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/363166-800-auto?v=638080725350970000&width=800&height=auto&aspect=true" },
+    // Águas
+    { name: "Água Sem Gás", price: "R$ 2,50", description: "Crystal 500ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/371356-800-auto?v=638082769300370000&width=800&height=auto&aspect=true" },
+    { name: "Água Com Gás", price: "R$ 3,50", description: "Crystal 500ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/448433-800-auto?v=638525888996100000&width=800&height=auto&aspect=true" },
+       // Energéticos
+    { name: "Monster Energy", price: "R$ 12,00", description: "Lata 473ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/464580-800-auto?v=638727187105200000&width=800&height=auto&aspect=true" },
+    { name: "Red Bull Tradicional", price: "R$ 12,00", description: "Lata 250ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/499626-800-auto?v=639147878684930000&width=800&height=auto&aspect=true" },
+    { name: "Red Bull Zero", price: "R$ 12,00", description: "Lata 250ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/499627-800-auto?v=639147878687270000&width=800&height=auto&aspect=true" },
+    // Proteínas
+    { name: "YoPRO Chocolate", price: "R$ 10,00", description: "Bebida láctea 250ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/465338-800-auto?v=638738647621200000&width=800&height=auto&aspect=true" },
+    { name: "YoPRO Doce de Leite", price: "R$ 10,00", description: "Bebida láctea 250ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/464913-800-auto?v=638736037638270000&width=800&height=auto&aspect=true" },
+   
+    // Cervejas
+    { name: "Império Puro Malte", price: "R$ 5,00", description: "Lata 269ml", image: "https://covabra.vtexassets.com/arquivos/ids/548931-800-auto?v=638925414393530000&width=800&height=auto&aspect=true" },
+    { name: "Petra Puro Malte", price: "R$ 5,00", description: "Lata 350ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/366329-800-auto?v=638080898743470000&width=800&height=auto&aspect=true" },
+    { name: "Original", price: "R$ 5,00", description: "Lata 350ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/451131-800-auto?v=639041724363700000&width=800&height=auto&aspect=true" },
+    { name: "Brahma Duplo Malte", price: "R$ 6,00", description: "Lata 350ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/448774-800-auto?v=639136935519500000&width=800&height=auto&aspect=true" },
+    { name: "Spaten", price: "R$ 8,00", description: "Long Neck 330ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/450675-800-auto?v=638889019148470000&width=800&height=auto&aspect=true" },
+    { name: "Budweiser", price: "R$ 9,00", description: "Long Neck 330ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/448755-800-auto?v=638525949249530000&width=800&height=auto&aspect=true" },
+    { name: "Heineken", price: "R$ 10,00", description: "Long Neck 330ml", image: "https://savegnagoio.vtexassets.com/arquivos/ids/496166-800-auto?v=639114377317630000&width=800&height=auto&aspect=true" },
+
+
   ],
 }
 
