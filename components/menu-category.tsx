@@ -11,6 +11,7 @@ interface MenuItem {
   description: string
   spiceLevel?: number
   image?: string
+  imagePosition?: string
 }
 
 interface MenuCategoryProps {
@@ -130,7 +131,7 @@ export function MenuCategory({ items }: MenuCategoryProps) {
                   src={item.image}
                   alt={item.name}
                   fill
-                  className={`group-hover:scale-105 transition-transform duration-500 ${item.image.startsWith("http") ? "object-contain p-3" : "object-cover"}`}
+                  className={`group-hover:scale-105 transition-transform duration-500 ${item.image.startsWith("http") ? "object-contain p-3" : `object-cover ${item.imagePosition ?? "object-center"}`}`}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none" />
                 <span className="absolute bottom-3 right-3 text-lg font-black text-white bg-primary px-3 py-1 rounded-xl shadow-lg">
