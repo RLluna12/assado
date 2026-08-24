@@ -153,6 +153,8 @@ export function MenuCategory({ items }: MenuCategoryProps) {
                 {item.name}
               </h3>
 
+              {!item.image && <p className="text-lg font-black text-primary">{item.price}</p>}
+
               <p className="text-muted-foreground text-sm leading-relaxed flex-1">
                 {item.description}
               </p>
